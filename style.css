@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "segeo Script", "Comic Sans MS", cursive;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+h1 {
+  color: #ff4d6d;
+  font-family: 'Poppins', sans-serif;
+}
+
+.message {
+  color: #444;
+  margin: 20px 0;
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+button {
+  background: #ff4d6d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e63956;
+}
+
+button:hover {
+  background: #e63956;
+}
+
+.card {
+  animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.p1, .p2, .p3, .p4, .p5, .g1, .g2 {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+
+body {
+  position: relative; 
+}
+
+
+.p1 {
+  position: absolute;
+  top: 150px;
+  left: 40px;
+  width: 170px;
+  border-radius: 10px;
+}
+
+.p2 {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  width: 270px;
+  border-radius: 10px;
+}
+
+.p3 {
+  position: absolute;
+  bottom: 70px;
+  left: 20px;
+  width: 250px;
+  border-radius: 10px;
+  transform: rotate(-6deg);
+}
+
+
+.g1 {
+  position: absolute;
+  top: 60px;
+  right: 40px;
+  width: 200px;
+}
+
+.g2 {
+  position: absolute;
+  top: 350px;
+  bottom: 200px;
+  right: 40px;
+  width: 200px;
+}
+
+img {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}

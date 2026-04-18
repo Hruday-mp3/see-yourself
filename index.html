@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy Birthday :D </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+  <h1>HAPPY BIRTHDAY SOPHIAAA :3 </h1>
+  <p class="message">
+    yoo! Yeah we didn't talk for quite a while... <br> <br> I... have my own reasons, but hey i made this for your BIRTHDAY even after everything,
+    we are smth to eachother ehehehe .... happy birthday
+  </p>
+
+  <button onclick="showMessage()">Open Your Gift 🎁</button>
+  <p id="hiddenMsg"></p>
+</div>
+
+<img src="pic.jpeg" class="p1">
+<img src="pic2.jpeg" class="p2">
+<img src="pic3.jpeg" class="p3">
+<img src="gif1.gif" class="g1">
+<img src="gif2.gif" class="g2">
+
+
+<audio id="music" loop controls>
+    <source src="song.mp3" type="audio/mpeg">
+ </audio>
+
+ <script>
+function showMessage() {
+  document.getElementById("hiddenMsg").innerText =
+  "OMERETO!! on your 17th birthday! <3 XP ";
+
+  let music=
+  document.getElementById("music");
+  music.currentTime=0;
+  music.play();
+  setTimeout(() => {
+    music.pause();
+    music.currentTime=0;
+  },105000);
+}
+</script>
+
+</body>
+</html>
