@@ -163,3 +163,7 @@ img {
   .g1 { top: 150px; right: 80px; }
   .g2 { bottom: 150px; left: 80px; }
 }
+
+audio {
+  display: none;
+}
