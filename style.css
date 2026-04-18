@@ -157,8 +157,8 @@ img {
   .p2 { top: 300px; right: 20px; }
   .p3 { bottom: 40px; left: 30px; }
 
-  .g1 { top: 150px; right: 80px; }
-  .g2 { bottom: 150px; left: 80px; }
+  .g1 { top: 80px; right: 30px; }
+  .g2 { bottom: 150px; left: 50px; }
 }
 
 audio {
