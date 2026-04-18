@@ -147,7 +147,7 @@ img {
   }
 
   .p1 { top: 80px; left: 30px; }
-  .p3 { bottom: 70px; left: 10px; width: 200px; }
+  .p3 { bottom: 70px; left: 40px; width: 300px; }
 
   .g1 { top: 80px; right: 30px; }
   .g2 { position: absolute; bottom: 10px; right: 10px; width: 150px; height: auto; display: none;}
