@@ -97,13 +97,6 @@ body {
   border-radius: 10px;
 }
 
-.p2 {
-  position: absolute;
-  top: 30px;
-  left: 10px;
-  width: 270px;
-  border-radius: 10px;
-}
 
 .p3 {
   position: absolute;
@@ -137,7 +130,7 @@ img {
 @media (max-width: 600px) {
 
   .card {
-    width: 90px;
+    width: auto;
     padding: 10px;
   }
 
@@ -149,16 +142,15 @@ img {
     font-size: 14px;
   }
 
-  .p1, .p2, .g1, .g2 {
+  .p1, .g1, .g2 {
     width: 150px;
   }
 
   .p1 { top: 80px; left: 30px; }
-  .p2 { bottom: 30px; left: 20; }
-  .p3 { bottom: 250px; left: 30px; }
+  .p3 { bottom: 150px; left: 30px; }
 
   .g1 { top: 80px; right: 30px; }
-  .g2 { bottom: 250px; right: 30px; width: 250px; }
+  .g2 { bottom: 250px; right: 30px; width: 220px; }
 }
 
 audio {
