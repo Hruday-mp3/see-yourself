@@ -154,8 +154,8 @@ img {
   }
 
   .p1 { top: 80px; left: 30px; }
-  .p2 { top: 130px; right: 20px; }
-  .p3 { bottom: 40px; left: 30px; }
+  .p2 { bottom: 30px; left: 20; }
+  .p3 { bottom: 100px; left: 30px; }
 
   .g1 { top: 80px; right: 30px; }
   .g2 { bottom: 30px; left: 50px; }
