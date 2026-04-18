@@ -137,8 +137,8 @@ img {
 @media (max-width: 600px) {
 
   .card {
-    width: 100%;
-    padding: 20px;
+    width: 70%;
+    padding: 40px;
   }
 
   h1 {
