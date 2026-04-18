@@ -91,18 +91,18 @@ body {
 
 .p1 {
   position: absolute;
-  top: 150px;
-  left: 40px;
-  width: 220px;
+  top: 50px;
+  left: 70px;
+  width: 270px;
   border-radius: 10px;
 }
 
 
 .p3 {
   position: absolute;
-  bottom: 70px;
-  left: 20px;
-  width: 300px;
+  bottom: 40px;
+  left: 40px;
+  width: 350px;
   border-radius: 10px;
   transform: rotate(-6deg);
 }
@@ -110,9 +110,9 @@ body {
 
 .g1 {
   position: absolute;
-  top: 60px;
+  top: 50px;
   right: 40px;
-  width: 200px;
+  width: 300px;
 }
 
 .g2 {
@@ -120,7 +120,7 @@ body {
   top: 350px;
   bottom: 200px;
   right: 40px;
-  width: 200px;
+  width: 250px;
 }
 
 img {
