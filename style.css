@@ -133,3 +133,33 @@ body {
 img {
   box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
+
+@media (max-width: 600px) {
+
+  .card {
+    width: 90%;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .message {
+    font-size: 14px;
+  }
+
+  .p1, .p2, .p3, .p4, .p5, .g1, .g2 {
+    width: 90px;
+  }
+
+  .p1 { top: 80px; left: 10px; }
+  .p2 { top: 80px; right: 10px; }
+  .p3 { top: 200px; left: 20px; }
+
+  .p4 { bottom: 120px; right: 10px; }
+  .p5 { bottom: 50px; left: 10px; }
+
+  .g1 { top: 150px; right: 80px; }
+  .g2 { bottom: 150px; left: 80px; }
+}
